@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="./glDatePicker-2.0/glDatePicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   </head>
   <body>
@@ -117,21 +118,112 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" style="padding: 15px 0px 10px 0px;">
         <div class="col-md-4">
-          <a href="#"><i class="fas fa-desktop"></i>고급파일처리론 (Graduate), Spring, 2017</a>
+          <a href="#" style="font-size:16px;"><i class="fas fa-desktop"></i><span style="margin-left:10px;">고급파일처리론 (Graduate), Spring, 2017</span></a>
           <br>
-
-
-주교재: The Complete Reference: Star Schema, 2010(저자: Christopher Adamson, 출판사:McGraw Hill)
+          <p style="margin-left:26px;">주교재: The Complete Reference: Star Schema, 2010(저자: Christopher Adamson, 출판사:McGraw Hill)</p>
         </div>
         <div class="col-md-4">
-          col2
+          <a href="#" style="font-size:16px;"><i class="fas fa-desktop"></i><span style="margin-left:10px;">고급파일처리론 (Graduate), Spring, 2017</span></a>
+          <br>
+          <p style="margin-left:26px;">주교재: The Complete Reference: Star Schema, 2010(저자: Christopher Adamson, 출판사:McGraw Hill)</p>
         </div>
         <div class="col-md-4">
-          col3
+          <a href="#" style="font-size:16px;"><i class="fas fa-desktop"></i><span style="margin-left:10px;">고급파일처리론 (Graduate), Spring, 2017</span></a>
+          <br>
+          <p style="margin-left:26px;">주교재: The Complete Reference: Star Schema, 2010(저자: Christopher Adamson, 출판사:McGraw Hill)</p>
+        </div>
+        <div class="col-md-4">
+          <a href="#" style="font-size:16px;"><i class="fas fa-desktop"></i><span style="margin-left:10px;">고급파일처리론 (Graduate), Spring, 2017</span></a>
+          <br>
+          <p style="margin-left:26px;">주교재: The Complete Reference: Star Schema, 2010(저자: Christopher Adamson, 출판사:McGraw Hill)</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4>연구실 일정</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" id="mydate" />
+          <div gldp-el="mydate"
+               style="width:400px; height:300px; position:absolute; top:70px; left:100px;">
+          </div>
+        </div>
+        <div id="kboard-default-latest" class="col-md-6">
+          <h5>Research Project</h5>
+          <table cellpadding="10">
+        		<thead>
+        			<tr>
+        				<th class="kboard-latest-title" style="text-align: center;">제목</th>
+        				<th class="kboard-latest-date" style="text-align: center;">작성일</th>
+        			</tr>
+        		</thead>
+        		<tbody>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=52&amp;mod=document">빅데이터를 활용한 스마트 관광 서비스 모델 연구 (완료)</a> </div></td>
+        				<td class="kboard-latest-date">2016.09.17</td>
+        			</tr>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=51&amp;mod=document">건축물의 성능 위주 화재 안전 설계 기준 및 화재 안전성 향상 기술 개발 (화재 예측을 위한 빅데이터 분석) (진행중)</a> </div></td>
+        				<td class="kboard-latest-date">2016.09.17</td>
+        			</tr>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=50&amp;mod=document">자동 진화형 고성능 다차원 문서 분류 시스템의 개발 (진행중)</a> </div></td>
+        				<td class="kboard-latest-date">2016.09.17</td>
+        			</tr>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=25&amp;mod=document">시멘틱 텍스트 큐보이드 기반 대용량 텍스트마이닝 프레임워크의 연구 (완료)</a> </div></td>
+        				<td class="kboard-latest-date">2014.08.29</td>
+        			</tr>
+        					</tbody>
+        	</table>
+          <br>
+          <hr>
+          <br>
+          <h5>Seminar</h5>
+          <table cellpadding="10">
+        		<thead>
+        			<tr>
+        				<th class="kboard-latest-title" style="text-align: center;">제목</th>
+        				<th class="kboard-latest-date" style="text-align: center;">작성일</th>
+        			</tr>
+        		</thead>
+        		<tbody>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=52&amp;mod=document">빅데이터를 활용한 스마트 관광 서비스 모델 연구 (완료)</a> </div></td>
+        				<td class="kboard-latest-date">2016.09.17</td>
+        			</tr>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=51&amp;mod=document">건축물의 성능 위주 화재 안전 설계 기준 및 화재 안전성 향상 기술 개발 (화재 예측을 위한 빅데이터 분석) (진행중)</a> </div></td>
+        				<td class="kboard-latest-date">2016.09.17</td>
+        			</tr>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=50&amp;mod=document">자동 진화형 고성능 다차원 문서 분류 시스템의 개발 (진행중)</a> </div></td>
+        				<td class="kboard-latest-date">2016.09.17</td>
+        			</tr>
+        						<tr>
+        				<td class="kboard-latest-title"><div class="cut_strings"><a href="/research-projects/?uid=25&amp;mod=document">시멘틱 텍스트 큐보이드 기반 대용량 텍스트마이닝 프레임워크의 연구 (완료)</a> </div></td>
+        				<td class="kboard-latest-date">2014.08.29</td>
+        			</tr>
+        					</tbody>
+        	</table>
         </div>
 
+
+
+      </div>
+
+      <div class="row">
+        <div id="footer" class="col-md-12">
+            © 2014 <a href="#">Data Mining Research Laboratory</a> - University of Seoul 90 cheonnong dong, Dongdaemun-gu, Seoul 130-743, Korea Tel. (82-2) 02-6490-5715
+        </div>
       </div>
     </div>
   </body>

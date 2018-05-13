@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gachon University</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="./glDatePicker-2.0/glDatePicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  </head>
+  <body>
+    <div class="container gachon-main-container">
+      <!-- upper bar -->
+      <div class="row" style="padding: 10px 0px 10px 0px; border-bottom: 1px solid rgba(0,0,0,.1);">
+        <div class="col-md-6 gachon-top">
+           <i class="fas fa-desktop"></i> 서울시립대 데이터마이닝 연구실
+        </div>
+        <div class="col-md-6 gachon-top gachon-top-right" style="text-align: right;">
+          <i class="fas fa-arrow-left"></i> 예전 홈페이지 <i class="far fa-envelope"></i> uosdmlab@gmail.com
+        </div>
+      </div>
+      <!-- navigation bar -->
+      <div class="row">
+        <div class="col-md-12" style="margin: 20px 0px 20px 0px; text-align: center;">
+          NAVIGATION BAR
+        </div>
+      </div>
+
+      <!-- main-home -->
+      <div class="row">
+        <div class="col-md-12">
+          <div id="map"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <h4>Send a Message</h4>
+          <div class="container">
+          <form>
+            <div class="form-group row">
+              <div class="col-md-8">
+                  <label for="ex3">col-xs-4</label>
+                  <input class="form-control" id="ex3" type="text">
+                </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-8">
+                  <label for="ex3">col-xs-4</label>
+                  <input class="form-control" id="ex3" type="text">
+                </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-8">
+                  <label for="ex3">col-xs-4</label>
+                  <input class="form-control" id="ex3" type="text">
+                </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-8">
+                  <label for="ex3">col-xs-4</label>
+                  <input class="form-control" id="ex3" type="text">
+                </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-12">
+                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>Keep in Touch</h4>
+          <div class="col-md-12">
+            <a href="#" style="font-size:16px;"><i class="fas fa-map-marker"></i><span style="margin-left:10px;">Address</span></a>
+            <br>
+            <p style="margin-left:26px;">서울특별시 동대문구 서울시립대로 163(전농동 90) <br>
+            정보기술관 415호 130-743</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="footer" class="col-md-12">
+            © 2014 <a href="#">Data Mining Research Laboratory</a> - University of Seoul 90 cheonnong dong, Dongdaemun-gu, Seoul 130-743, Korea Tel. (82-2) 02-6490-5715
+        </div>
+      </div>
+      <script>
+      function initMap() {
+        var uluru = {lat: 37.4507452, lng: 127.12884740000004};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBITEZwYeO1Z2ZSCDg9VDI99o9kpYTEHZU&callback=initMap">
+    </script>
+
+    </div>
+  </body>
+</html>
