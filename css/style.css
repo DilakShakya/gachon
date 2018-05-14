@@ -5,6 +5,88 @@ body {
     background: url(http://datamining.uos.ac.kr/wp-content/uploads/2014/07/bg1.png) center top repeat scroll;
 }
 
+/* navbar */
+#menu,
+#menu ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+#menu li {
+    float: left;
+    margin-right: 3px;
+    position: relative;
+}
+
+#menu ul {
+    position: absolute;
+    top: 80px;
+    left: -1px;
+    padding: 0;
+    display: none;
+    background: white;
+    white-space: nowrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 5;
+    width: 180px;
+}
+
+#menu ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+
+#menu a:link,
+#menu a:visited {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding: 0 15px;
+    color: #717171;
+}
+
+#menu li:hover {
+    /* background-color: #ffd98a; */
+    color: black !important;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li a:hover {
+  color: #00BCD4;
+}
+
+
+#menu .dropdown-items a{
+  color: #717171;
+  display: block;
+  padding: 14px 20px;
+  border-bottom: 1px solid #e9e9e9;
+  border-bottom-color: rgb(233, 233, 233);
+}
+
+#navigation ul li ul li a {
+
+    display: block;
+    padding: 14px 20px;
+    font-size: 13px;
+    color: #777;
+    border-bottom: 1px solid #e9e9e9;
+        border-bottom-color: rgb(233, 233, 233);
+
+}
+
+#menu .dropdown-items a:hover{
+  /* background: #00BCD4; */
+  color: #00838F;
+}
+/* navbar end */
+
 .gachon-main-container{
   background: #ffffff;
 }
