@@ -7,115 +7,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link href="css/web-fonts-with-css/css/font-awesome-all.min.css" rel="stylesheet"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="./glDatePicker-2.0/glDatePicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <script>
+      $(function(){
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
   </head>
   <body>
     <div class="container gachon-main-container">
-      <!-- upper bar -->
-      <div class="row" style="padding: 10px 0px 10px 0px; border-bottom: 1px solid rgba(0,0,0,.1);">
-        <div class="col-md-6 gachon-top">
-           <i class="fas fa-desktop"></i> 서울시립대 데이터마이닝 연구실
-        </div>
-        <div class="col-md-6 gachon-top gachon-top-right" style="text-align: right;">
-          <i class="fas fa-arrow-left"></i> 예전 홈페이지 <i class="far fa-envelope"></i> uosdmlab@gmail.com
-        </div>
-      </div>
-      <!-- navigation bar -->
-      <div class="row" style="height: 80px; line-height: 80px;">
-        <div class="col-md-3">
-          <span style="font-size: 25px;">Gachon University</span>
-        </div>
-        <div class="col-md-9">
-          <ul id="menu">
-              <li>
-                  <a href="#">Introduction <i class="fas fa-chevron-down fa-xs"></i></a>
-                  <ul class="dropdown-items">
-                      <li>
-                          <a href="#">Contact</a>
-                      </li>
-                      <li>
-                          <a href="#">Apply</a>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#">Members <i class="fas fa-chevron-down fa-xs"></i></a>
-                  <ul class="dropdown-items">
-                      <li>
-                          <a href="#">Professor</a>
-                      </li>
-                      <li>
-                          <a href="#">Students</a>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#">Publications <i class="fas fa-chevron-down fa-xs"></i></a>
-                  <ul class="dropdown-items">
-                      <li>
-                          <a href="#">Journal</a>
-                      </li>
-                      <li>
-                          <a href="#">Conferences</a>
-                      </li>
-                      <li>
-                          <a href="#">Patents</a>
-                      </li>
-                      <li>
-                          <a href="#">Books</a>
-                      </li>
-                      <li>
-                          <a href="#">Dissertation</a>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#">Research / Projects <i class="fas fa-chevron-down fa-xs"></i></a>
-                  <ul class="dropdown-items">
-                      <li>
-                          <a href="#">Research Area</a>
-                      </li>
-                      <li>
-                          <a href="#">Research Projects</a>
-                      </li>
-                      <li>
-                          <a href="#">Prototype Systems</a>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#">Lectures <i class="fas fa-chevron-down fa-xs"></i></a>
-                  <ul class="dropdown-items">
-                      <li>
-                          <a href="#">Graduate</a>
-                      </li>
-                      <li>
-                          <a href="#">Undergraduate</a>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#">Lab Activity <i class="fas fa-chevron-down fa-xs"></i></a>
-                  <ul class="dropdown-items">
-                      <li>
-                          <a href="#">Seminar</a>
-                      </li>
-                      <li>
-                          <a href="#">Photos</a>
-                      </li>
-                      <li>
-                          <a href="#">Lab Blog</a>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                <i class="fas fa-search" style="padding: 0 15px;"></i>
-              </li>
-          </ul>
-        </div>
+      <div id="header">
+
       </div>
       <!-- carousel-container -->
       <div class="row">
@@ -310,7 +218,7 @@
 
       <div class="row">
         <div id="footer" class="col-md-12">
-            © 2014 <a href="#">Data Mining Research Laboratory</a> - University of Seoul 90 cheonnong dong, Dongdaemun-gu, Seoul 130-743, Korea Tel. (82-2) 02-6490-5715
+
         </div>
       </div>
     </div>

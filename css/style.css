@@ -1,6 +1,6 @@
 body {
     background-color: #f2f2f2;
-    color: #717171;
+    /* color: #717171; */
     font-size: 13px;
     background: url(http://datamining.uos.ac.kr/wp-content/uploads/2014/07/bg1.png) center top repeat scroll;
 }
@@ -132,6 +132,7 @@ body {
   background-color: #282828;
   padding: 20px;
   margin-top: 50px;
+  color: #fff;
 }
 
 /* --------------- contact page -------------------- */
@@ -140,4 +141,29 @@ body {
   width: 100%;
   height: 400px;
   background-color: grey;
+}
+
+.contact-icons {
+  font-size: 14px;
+  border: 1px solid #568DC4;
+  padding: 8px;
+  border-radius: 50%;
+  color: #568DC4;
+}
+
+
+.apply-icons {
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 50%;
+  background: #568DC4;
+  color: #fff;
+}
+
+.wpb_wrapper span{
+  display: inline-block;
+}
+
+.wpb_wrapper li, .vntd-list li , .wpb_wrapper span{
+  margin-bottom: 8px;
 }
