@@ -2,7 +2,16 @@ body {
     background-color: #f2f2f2;
     /* color: #717171; */
     font-size: 13px;
-    background: url(http://datamining.uos.ac.kr/wp-content/uploads/2014/07/bg1.png) center top repeat scroll;
+    background: url(../images/bg5.png) center top repeat scroll;
+}
+
+a {
+  color: #7BC576;
+}
+
+a:hover {
+  color: #9CD495;
+  text-decoration: none;
 }
 
 /* navbar */
@@ -58,7 +67,7 @@ body {
 }
 
 #menu li a:hover {
-  color: #00BCD4;
+  color: #7BC576;
 }
 
 
@@ -83,7 +92,7 @@ body {
 
 #menu .dropdown-items a:hover{
   /* background: #00BCD4; */
-  color: #00838F;
+  color: #7BC576;
 }
 /* navbar end */
 
@@ -108,10 +117,10 @@ body {
 
 .home-big-icons{
   font-size: 30px;
-  border: 2px solid #568DC4;
+  border: 2px solid #7BC576;
   padding: 20px;
   border-radius: 50%;
-  color: #568DC4;
+  color: #7BC576;
 }
 
 #kboard-default-latest table {
@@ -145,10 +154,10 @@ body {
 
 .contact-icons {
   font-size: 14px;
-  border: 1px solid #568DC4;
+  border: 1px solid #7BC576;
   padding: 8px;
   border-radius: 50%;
-  color: #568DC4;
+  color: #7BC576;
 }
 
 
@@ -156,7 +165,7 @@ body {
   font-size: 14px;
   padding: 4px;
   border-radius: 50%;
-  background: #568DC4;
+  background: #7BC576;
   color: #fff;
 }
 
