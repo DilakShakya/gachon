@@ -94,6 +94,64 @@ a:hover {
   /* background: #00BCD4; */
   color: #7BC576;
 }
+
+#menu .searchme {
+    position: absolute;
+    top: 80px;
+    left: -1px;
+    padding: 0;
+    display: none;
+    background: white;
+    white-space: nowrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 5;
+    width: 180px;
+}
+
+.nav-search-holder {
+    position: absolute;
+    right: 0;
+    top: 78px;
+    display: none;
+    background: #fff;
+    width: 220px;
+    border: 1px solid #e1e1e1;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(225, 225, 225);
+        border-right-color: rgb(225, 225, 225);
+        border-bottom-color: rgb(225, 225, 225);
+        border-left-color: rgb(225, 225, 225);
+    border-top: 0;
+        border-top-color: currentcolor;
+    margin-top: 2px;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.nav-search-holder form {
+    position: relative;
+    display: block !important;
+    min-width: 20px;
+}
+
+.search-box {
+    display: inherit;
+    line-height: 20px;
+    padding: 18px;
+    font-size: 13px;
+    background: none;
+    border: 0;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
 /* navbar end */
 
 .gachon-main-container{
@@ -121,6 +179,15 @@ a:hover {
   padding: 20px;
   border-radius: 50%;
   color: #7BC576;
+}
+
+.gac-ham{
+  display: none;
+}
+
+.text-center {
+    text-align: center !important;
+    padding: 10px 0px;
 }
 
 #kboard-default-latest table {
@@ -175,4 +242,58 @@ a:hover {
 
 .wpb_wrapper li, .vntd-list li , .wpb_wrapper span{
   margin-bottom: 8px;
+}
+
+.pagination{
+  justify-content: center;
+}
+
+/* vertical menus */
+
+.nav-tabs--vertical {
+border-bottom: none;
+border-right: 1px solid #ddd;
+display: flex;
+flex-flow: column nowrap;
+}
+.nav-tabs--left {
+padding-left: 15px;
+}
+.nav-tabs--left .nav-item + .nav-item {
+margin-top: 0.25rem;
+}
+.nav-tabs--left .nav-link {
+transition: border-color 0.125s ease-in;
+white-space: nowrap;
+}
+.nav-tabs--left .nav-link:hover {
+background-color: #f7f7f7;
+border-color: transparent;
+}
+.nav-tabs--left .nav-link.active {
+border-bottom-color: #ddd;
+border-right-color: #fff;
+border-bottom-left-radius: 0.25rem;
+border-top-right-radius: 0;
+margin-right: -1px;
+}
+.nav-tabs--left .nav-link.active:hover {
+background-color: #fff;
+border-color: #0275d8 #fff #0275d8 #0275d8;
+}
+/* vertical menus end */
+
+/* Portrait */
+@media screen and (max-width: 600px) {
+    .gac-nav{
+      display: none;
+    }
+
+    .gachon-top{
+      text-align: center !important;
+    }
+
+    .gac-ham{
+      display: block;
+    }
 }
