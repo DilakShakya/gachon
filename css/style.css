@@ -370,6 +370,31 @@ margin-bottom: 20px;
     color: #4fae49;
 }
 
+.entry-meta, .entry-more {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.entry-meta li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.entry-meta i {
+    margin-right: 5px;
+}
+
+.entry-meta a, .entry-footer a {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 7% !important;
+}
+
 /* Portrait */
 @media screen and (max-width: 600px) {
 
